@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+
+.menu-item{
+    background-color: blueviolet;
+    position: relative;
+    cursor: pointer;
+    
+
+}
+
+.carousel {
+    background-color: burlywood;
+    display: flex;
+    overflow: auto;
+    padding: 20px;
+    display: none;
+    
+}
+
+.display{
+    display: flex;
+    cursor: auto;
+}
+
+.card {
+    background-color: cadetblue;
+    
+    height: 200px;
+    width: 500px;
+    flex-shrink: 0;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.expand-button{
+    position: absolute; 
+    right: 0; 
+    top:0}
